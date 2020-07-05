@@ -1,0 +1,107 @@
+body {
+  background-color: #f0e87d !important;
+}
+
+.form-width-register {
+  margin: auto !important;
+  width: 50vw !important;
+}
+
+.form-width-register input {
+  height: 6vh !important;
+  font-size: 1em !important;
+}
+
+.message {
+  position: relative;
+  top: 2vh;
+  margin: auto !important;
+  width: 60vw !important;
+}
+
+/* .post-body input {
+  height: 10vh !important;
+}
+.post-body input::-webkit-input-placeholder {
+  position: relative !important;
+  top: -20px !important;
+} */
+
+.cards {
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home-card {
+  overflow: hidden;
+}
+
+.post-body-form-error {
+  position: relative !important;
+  top: -1vh;
+  width: 100% !important;
+}
+
+.trash-button {
+  position: absolute;
+  left: 82%;
+}
+.btn:focus {
+  outline: none;
+}
+
+.card-home {
+  width: 100%;
+  min-width: 20rem !important;
+  max-height: 18rem !important;
+  text-overflow: ellipsis !important;
+}
+
+.modal-delete {
+  max-height: 20vh !important;
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  top: 10vh !important;
+  transition: all 1s ease-in-out !important;
+}
+
+.single-card {
+  height: 100% !important;
+}
+
+.deleteButton-comment {
+  position: relative !important;
+  top: 10vh;
+  left: 9vw;
+}
+
+.single-post-delete {
+  position: relative !important;
+  left: 59vw;
+}
+
+@media screen and (min-width: 769px) {
+  .form-width-register {
+    margin: auto !important;
+    width: 60vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .deleteButton-comment {
+    position: relative !important;
+    top: 10vh;
+    left: 6vw !important;
+  }
+  .single-post-delete {
+    position: relative !important;
+    left: 50vw;
+  }
+}
+
+.comment-textarea {
+  height: 84px !important;
+  resize: none;
+}
