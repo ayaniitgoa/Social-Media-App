@@ -12,15 +12,15 @@
 
 ## Features :
 
-- ## See posts of all the users. (Signing in or registration not required. )
+- ### See posts of all the users. (Signing in or registration not required. )
 
-- ## See comments on all the posts. (Signing in or registration not required. )
+- ### See comments on all the posts. (Signing in or registration not required. )
 
-- ## Can add posts. (Signing in required)
+- ### Can add posts. (Signing in required)
 
-- ## Can like and comment on all the posts. (Signing in required)
+- ### Can like and comment on all the posts. (Signing in required)
 
-- ## Can delete their posts and comments. (Signing in required)
+- ### Can delete their posts and comments. (Signing in required)
 
 ---
 
@@ -28,14 +28,14 @@
 
 ## Make sure to use two terminals (one for backend server and another for frontend server)
 
-- ## To start backend server
+- ## To start backend server:
 
 ```bash
     npm install
     node index.js
 ```
 
-- ## To start frontend server
+- ## To start frontend server:
 
 ```bash
     cd client
