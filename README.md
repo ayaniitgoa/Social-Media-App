@@ -4,15 +4,15 @@
 
 ## Stack Used:
 
-> ## MERNG (MongoDB + Express + ReactJS + NodeJS + GraphQL)
+> ### _GraphQL, ReactJS, MongoDB, NodeJS, Express_
 
-## Apollo Server is also used in backend.
+> ### Apollo Client and Apollo Server are used in frontend and backend respectively.
 
 ---
 
 ## Features :
 
-- ## See posts of all the users (Signing in or registration not required. )
+- ## See posts of all the users. (Signing in or registration not required. )
 
 - ## See comments on all the posts. (Signing in or registration not required. )
 
